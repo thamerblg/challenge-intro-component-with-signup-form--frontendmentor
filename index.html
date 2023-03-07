@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="text">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="form">
+          <p class="notice">
+            <strong>Try it free 7 days</strong> then $20/mo. thereafter
+          </p>
+          <form action="#">
+            <div class="bloc_input firstName">
+              <input
+                type="text"
+                value=""
+                name="fname"
+                placeholder="First Name"
+              />
+              <div class="icon_error">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="text_error">First Name cannot be empty</p>
+            </div>
+
+            <div class="bloc_input lastName">
+              <input
+                type="text"
+                value=""
+                name="lname"
+                placeholder="Last Name"
+              />
+              <div class="icon_error">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="text_error">Last Name cannot be empty</p>
+            </div>
+
+            <div class="bloc_input email">
+              <input type="email" value="" placeholder="Email" />
+              <div class="icon_error">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="text_error"></p>
+            </div>
+
+            <div class="bloc_input password">
+              <input type="password" value="" placeholder="Password" />
+              <div class="icon_error">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="6"
+                      width="2"
+                      height="9"
+                      rx="1"
+                    />
+                    <rect
+                      fill="#FFF"
+                      x="11"
+                      y="17"
+                      width="2"
+                      height="2"
+                      rx="1"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="text_error">Password cannot be empty</p>
+            </div>
+            <button type="submit" aria-label="submit form">
+              Claim your free trial
+            </button>
+            <p class="terms">
+              By clicking the button, you are agreeing to our
+              <a href="#">Terms and Services</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
